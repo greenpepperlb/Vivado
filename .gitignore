@@ -1,0 +1,51 @@
+# ---- Vivado temporary and build files ----
+*.jou
+*.log
+*.str
+*.zip
+*.xml
+
+# Vivado project file (optional to ignore)
+*.xpr
+
+# Vivado generated folders
+.cache/
+.hw/
+.runs/
+.sim/
+.ip_user_files/
+.gen/
+.webtalk/
+NA/
+.tcl.update/
+Xil/
+usage_statistics_webtalk.*
+webtalk.log
+
+# Simulation temp files
+*.wdb
+*.pb
+*.vcd
+*.vvp
+*.dmp
+
+# Verilator / other sim tools
+obj_dir/
+sim_build/
+
+# Checkpoints & bitstreams (optional)
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.mef
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
